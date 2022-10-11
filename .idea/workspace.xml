@@ -2,24 +2,159 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c45f1f-895d-4860-a423-864cdd5cd8c4" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_10_150707_add_avatar_column_to_users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_10_155258_make_password_nullable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/no-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/LGH6GsH9vL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/Lu9KEEEEuL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/PbERXCdnIc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/aPPviIwWNf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/xmWsXy45pL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel2.kz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel2.kz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_11_153004_add_date_to_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_11_154604_add_image_to_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/adapters/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/ckeditor/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/2GHiT8LpHa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/ND2Cn1TVwZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/OoFPIC6Rmd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/XamdgHX1l2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/eK64FIR9Vd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/jqKFjh0FHb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +163,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -185,7 +320,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665303837800</updated>
       <workItem from="1665303840389" duration="17440000" />
-      <workItem from="1665412234767" duration="5905000" />
+      <workItem from="1665412234767" duration="6112000" />
+      <workItem from="1665499258209" duration="8425000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665315975770</created>
