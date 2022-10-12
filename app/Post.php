@@ -13,7 +13,7 @@ class Post extends Model
     //
     use Sluggable;
 
-    protected $fillable = ['title', 'content', 'date', 'image'];
+    protected $fillable = ['title', 'content', 'date', 'image', 'description'];
 
     const IS_DRAFT = 0;
     const IS_PUBLIC = 1;
@@ -90,8 +90,7 @@ class Post extends Model
 
     public function getImage()
     {
-        if($this->image == null)
-        {
+        if ($this->image == null) {
             return '/img/no-image.png';
         }
 
@@ -178,12 +177,20 @@ class Post extends Model
 
     public function getTagsTitles()
     {
-        if (!$this->tags->isEmpty())
-        {
+        if (!$this->tags->isEmpty()) {
             return implode(',', $this->tags->pluck('title')->all());
         }
 
         return 'Нет Тэгов';
     }
 
+    public function getCategoryId()
+    {
+        return $this->category != null ? $this->category_id : null;
+    }
+
+    public function getDate()
+    {
+       return Carbon::createFromFormat('d/m/y', $this->date)->format('F d, Y');
+    }
 }

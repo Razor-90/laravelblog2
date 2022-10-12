@@ -30,7 +30,7 @@
                             <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="{{old('title')}}">
                         </div>
 
-                        <div class="form-group">
+                         <div class="form-group">
                             <label for="exampleInputFile">Лицевая картинка</label>
                             <input name="image" type="file" id="exampleInputFile">
 
@@ -89,6 +89,12 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1">Полный текст</label>
                             <textarea name="content" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">description</label>
+                            <textarea name="description" id="" cols="30" rows="10" class="form-control"></textarea>
                         </div>
                     </div>
                 </div>

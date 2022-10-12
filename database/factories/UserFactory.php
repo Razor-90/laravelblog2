@@ -26,3 +26,17 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+$factory->define(Post::class, function (Faker $faker) {
+    return [
+        'title' => $faker->sentence,
+        'content' => $faker->sentence,
+        'image' => 'photo1.png',
+        'date'=>'08/09/22', // password
+        'view' => $faker->numberBetween(0, 500),
+        'category_id' => 1,
+        'tags' => [1,2],
+        'user_id' => 1,
+        'status' => 1,
+        'is_featured' => 0
+    ];
+});

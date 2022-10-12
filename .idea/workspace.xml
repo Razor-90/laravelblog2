@@ -2,123 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c45f1f-895d-4860-a423-864cdd5cd8c4" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/front.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/abc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-grid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blog-next.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/coming-soon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/comment-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/comment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/footer-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/header-3-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/header-logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ins-flow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/me-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/r-p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/related-post-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/AjaxLoader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/grabbing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/owl.transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/abc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-grid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/blog-next.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/coming-soon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/comment-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/comment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/footer-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/header-3-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/header-logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/ins-flow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/me-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/r-p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/related-post-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/related-post-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/images/related-post-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/jquery.stickit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/front/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_12_164545_add_description_to_posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/data/Files/RobloxScreenShot20211109_090847799(1).png.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/data/Files/RobloxScreenShot20211109_090847799.png.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/thumbs/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/thumbs/Files/RobloxScreenShot20211109_090847799(1).png/RobloxScreenShot20211109_090847799(1)__150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/.ckfinder/cache/thumbs/Files/RobloxScreenShot20211109_090847799.png/RobloxScreenShot20211109_090847799__150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/files/RobloxScreenShot20211109_090847799(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckfinder/userfiles/files/RobloxScreenShot20211109_090847799.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +185,7 @@
       <workItem from="1665303840389" duration="17440000" />
       <workItem from="1665412234767" duration="6112000" />
       <workItem from="1665499258209" duration="9027000" />
-      <workItem from="1665588893679" duration="2784000" />
+      <workItem from="1665588893679" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665315975770</created>
