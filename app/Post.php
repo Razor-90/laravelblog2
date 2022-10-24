@@ -97,6 +97,15 @@ class Post extends Model
         return '/uploads/' . $this->image;
     }
 
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
+    public function getComments()
+    {
+        return $this->comments()->where('status', 1)->get();
+    }
     public function setCategory($id)
     {
         if ($id == null) {

@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c45f1f-895d-4860-a423-864cdd5cd8c4" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthContoller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/3dlsYm18Ho.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SubscribersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SubsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/SubscribeEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comments/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/subs/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/subs/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/email/verify.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/TPLurYbnlF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Subscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Subscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -185,7 +190,8 @@
       <workItem from="1665588893679" duration="5331000" />
       <workItem from="1666014497752" duration="3871000" />
       <workItem from="1666188937862" duration="12113000" />
-      <workItem from="1666362340243" duration="7420000" />
+      <workItem from="1666362340243" duration="7610000" />
+      <workItem from="1666580898589" duration="11283000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665315975770</created>
@@ -238,7 +244,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/pages/show.blade.php</url>
-          <line>159</line>
+          <line>141</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
